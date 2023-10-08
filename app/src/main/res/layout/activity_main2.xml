@@ -8,33 +8,35 @@
     android:gravity="center"
     tools:context=".MainActivity2">
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:hint="Pick your username" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <EditText
+        android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:password="true"
+        android:hint="Pick your password" />
 
     <Button
         android:id="@+id/btnLogIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boton1" />
+        android:onClick="saludar"
+        android:text="Login inline" />
 
     <Button
         android:id="@+id/btnLogIn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boton2" />
+        android:text="Login interface" />
 
     <Button
         android:id="@+id/btnLogIn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boton3" />
+        android:text="Login delegate" />
 </LinearLayout>
